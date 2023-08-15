@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 text-lg rounded-xl;
+}
