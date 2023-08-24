@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import {RouterView } from 'vue-router'
+import NavHeader from '../src/components/NavHeader.vue'
 </script>
 
 <template>
-  <RouterView/>
+    <NavHeader/>
+    <RouterView/>
 </template>
 
-<style scoped>
+<style>
+body {
+    width:fit-content;
+}
 </style>
